@@ -184,9 +184,6 @@ class NLPApp:
         self.sentiment_result.config(text=final_result)
         
 
-    def image_gui(self):
-        pass
-
     def headline_generator_gui(self):
          
          self.clear_gui()
