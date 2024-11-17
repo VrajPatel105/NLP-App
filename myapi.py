@@ -4,7 +4,7 @@ class API:
     
     def __init__(self):
         # API key (replace with your actual API key)
-        self.api_key = "774f3f437bc5339bed58074e975e3bb1bf3741e4"
+        self.api_key = "Enter Your api"
 
     def initialize_client(self, model_name, gpu=False):
         # Initialize the client dynamically based on the model name
