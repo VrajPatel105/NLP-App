@@ -33,12 +33,10 @@ class NLPApp:
         # pady will leave 30 30 pixel gap from top and bottom.
         heading.configure(font = ('verrdana', 24 , 'bold'))
 
-
         label1 = Label(self.root, text = 'Enter Email')
         label1.pack(pady=(10,10))
         self.email_input = Entry(self.root, width=50)
         self.email_input.pack(pady=(5,10), ipady=4)
-        
 
         label2 = Label(self.root, text = 'Enter Password')
         label2.pack(pady=(10,10))
