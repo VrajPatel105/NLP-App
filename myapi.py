@@ -18,7 +18,7 @@ class API:
         return response
     
 
-
+ 
     def image_analysis(self,text):
 
         client = self.initialize_client("stable-diffusion", gpu = True)
