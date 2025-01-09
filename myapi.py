@@ -10,7 +10,7 @@ class API:
     def initialize_client(self, model_name, gpu=False):
         # Initialize the client dynamically based on the model name
         return nlpcloud.Client(model_name, self.api_key, gpu=gpu)
-
+ 
     def sentiment_analysis(self, text):
         # Use the specific model for sentiment analysis
         client = self.initialize_client("distilbert-base-uncased-emotion")
