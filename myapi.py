@@ -16,6 +16,7 @@ class API:
         client = self.initialize_client("distilbert-base-uncased-emotion")
         response = client.sentiment(text)
         return response
+
     
 
  
