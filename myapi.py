@@ -6,7 +6,7 @@ class API:
     def __init__(self):
         # API key (replace with your actual API key)
         self.api_key = "Enter Your api" 
-
+ 
     def initialize_client(self, model_name, gpu=False):
         # Initialize the client dynamically based on the model name
         return nlpcloud.Client(model_name, self.api_key, gpu=gpu)
