@@ -4,7 +4,7 @@ import nlpcloud
 class API:
     
     def __init__(self): 
-        # API key (replace with your actual API key)
+        # API key (replace with your actual API key) 
         self.api_key = "Enter Your api" 
  
     def initialize_client(self, model_name, gpu=False):
